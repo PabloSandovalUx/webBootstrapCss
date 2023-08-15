@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'SuperMario256';
+  src:  url('../fonts/SuperMario256.woff2') format('woff2'),
+        url('../fonts/SuperMario256.woff') format('woff'),
+        url('../fonts/SuperMario256.ttf') format('ttf');
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'SuperMario256', sans-serif;
+}
+
+.bg-colorPrincipal{
+    background-color: #80eb52;
+}
+
+.text-colorPrincipal{
+    color: #f20df2;
+}
+
+.btn-exterior-colorPrincipal{
+    border-color: #f20df2;
+}
+.btn-exterior-colorPrincipal:hover{
+    background-color: #f20df2;
+    color:#fff;
+}
