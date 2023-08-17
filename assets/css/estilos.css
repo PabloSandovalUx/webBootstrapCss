@@ -26,8 +26,52 @@ h2{
 
 .btn-exterior-colorPrincipal{
     border-color: #f20df2;
+    color: #f20df2;
 }
 .btn-exterior-colorPrincipal:hover{
     background-color: #f20df2;
     color:#fff;
 }
+
+.bg-principal{
+    background-color: #2c960e;
+}
+
+.bg-peligro{
+    background-color: #cc0000;
+}
+
+.bg-informacion{
+    background-color: #0000cc;
+}
+
+/* .bg-primary,
+.bg-secondary,
+.bg-danger,
+.bg-warning,
+.bg-info
+
+bg-(color)
+text-(color)
+border-(color) */
+
+.bg-principal{
+    background-color: #2c960e;
+}
+
+.bg-principalClaro{
+    background-color: #80eb52;
+}
+
+.bg-principalOscuro{
+    background-color: #164b07;
+}
+
+.text-normal{
+    color: #141414;
+}
+
+.text-claro{
+    color: #ccc;
+}
+
