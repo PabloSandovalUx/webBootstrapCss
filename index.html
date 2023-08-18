@@ -288,6 +288,58 @@
                 <div class="col py-5 bg-info">hola 3</div>
             </article>
         </section>
+        <section class="my-5 px-5">
+            <!--  formulario con flex -->
+            <form>
+                <div class="mb-3 d-flex">
+                    <label for="exampleInputEmail1" class="form-label w-25 text-end">Nombre</label>
+                    <input type="text" class="form-control ms-5" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Pablo">
+                </div>
+                <div class="mb-3 d-flex">
+                    <label for="exampleInputEmail2" class="form-label w-25 text-end">Apellido de la persona</label>
+                    <input type="text" class="form-control ms-5" id="exampleInputEmail2"
+                        placeholder="Sandoval">
+                </div>
+                <div class="mb-3 d-flex">
+                    <label for="select2" class="form-label w-25 text-end pe-5">Sexo</label>
+                    <select name="" id="select2" class="w-75">
+                        <option value="">Selecciona una opción</option>
+                        <option value="">Prefiero no decirlo</option>
+                        <option value="">Hombre</option>
+                        <option value="">Mujer</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+        <section class="my-5 px-5">
+            <!--  formulario con row -->
+            <form>
+                <div class="mb-3 row">
+                    <label for="exampleInputEmail1" class="form-label col-3 pe-5 text-end">Nombre</label>
+                    <input type="text" class="form-control col" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Pablo">
+                </div>
+                <div class="mb-3 row">
+                    <label for="exampleInputEmail2" class="form-label col-3 pe-5 text-end">Apellido de la persona</label>
+                    <input type="text" class="form-control col" id="exampleInputEmail2"
+                        placeholder="Sandoval">
+                </div>
+                <div class="mb-3 row">
+                    <label for="select2" class="form-label col-3 pe-5 text-end">Sexo</label>
+                    <select name="" id="select2" class="col">
+                        <option value="">Selecciona una opción</option>
+                        <option value="">Prefiero no decirlo</option>
+                        <option value="">Hombre</option>
+                        <option value="">Mujer</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer class="bg-secondary">
         <section class="container-fluid pt-5 pb-2">
